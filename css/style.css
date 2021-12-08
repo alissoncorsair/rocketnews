@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&family=Work+Sans:wght@400;500;700&display=swap');
+
+/* font-family: 'Spartan', sans-serif;
+font-family: 'Work Sans', sans-serif */
+
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 720px 1fr;
+}
+
+main {
+    height: 100vh;
+    background-color: var(--body-bg-color);
+}
+
+aside {
+    height: 100vh;
+    background-image: url(../assets/read_news.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+}
+
+.container {
+    /* display: block;
+    height: auto; */
+    padding: 5%;
+}
+
+.logo {
+    width: 389px;
+    height: 94px;
+    padding: 2%;
+}
+
+.middle-texts {
+    margin-left: 2%;
+    margin-top: 12%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.green-title {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28, 15px;
+    color: #08C05E;
+}
+
+.second-middle {
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.third-middle {
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF
+}
+
+.register {
+    width: 798px;
+    margin-top: 10%;
+    margin-left: 2%;
+}
+
+.insert-email {
+    color: var(--form-color);
+    font-family: 'Spartan', 'sans-serif';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.18rem;
+}
+
+.email {
+    width: 798px;
+    display: flex;
+}
+
+
+.input-email {
+    user-select: none;
+    border: none;
+    border-left: solid 5px var(--title-color);
+    width: 798px;
+    height: 48px;
+    color: var(--form-color);
+    background: #FFFFFF;
+    filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+}
+.input-email:focus {
+    outline-width: 0;
+}
+
+.send-button {
+    width: 48px;
+    border: none;
+    background-color: var(--bg-button-color);
+    z-index: 1;
+}
+
+.purple-section {
+    margin-left: 2%;
+    margin-top: 5%;
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    align-items: center;
+}
+
+.purple-info, .purple-info:visited {
+    width: 195px;
+    display: flex;
+    align-items: center;
+    color: #8257E5;
+    text-decoration: none;
+}
+
